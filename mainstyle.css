@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=WindSong:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 70px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+#owner-name {
+    font-family: windsong;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+
+.owner-link {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+.text {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+
+.nav-links {
+    text-align: end;
+    padding-right: 10px;
+    font-family: "source serif 4";
+    font-size: 20px;
+    font-weight: 340;   
+}
+
+#nav-names {
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+section {
+    min-height: 120vh;
+    display: flex;
+}
+
+#home {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brief-intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 150px;
+}
+
+#programmer-type {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 100px;
+    justify-self: center;
+    line-height: 0.75;
+    font-family: "poiret one";
+}
+
+    
+#container {
+    display: grid;
+    grid-template-columns: 54% 46%;
+}
+
+#programmer-job {
+    font-size: 100px;
+    line-height: 0.65;
+    justify-self: end;
+    font-family: "poiret one";
+
+}
+
+#programmer-discription {
+    justify-self: start;
+    padding: 70px;
+    font-family: "source serif 4";
+    font-weight: 370;
+    font-size: 12px;
+}
+
+
+.container {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 100%;
+}
+
+.projectnames {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    align-content: center;
+}
+
+.projectpreviews {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    align-content: center;
+    padding-left: 20%;
+}
+
+
+img {
+    width: 390px;
+    height: 220px;
+    justify-self: center;
+    border: solid gray 1px;
+}
+
+#main {
+    border-bottom: solid black 1px;
+    font-size: 40px;
+    font-family: "source serif 4";
+}
+
+#sub {
+    padding-left: 55%;
+    font-size: 12px;
+    font-family: "source serif 4";
+}
+
+.contactme {
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    width: 100%;
+}
+
+#team {
+    align-content: end;
+    text-align: end;
+    font-family: "source serif 4";
+    font-weight: bold;
+    font-size: 7em;
+    line-height: 0.70;
+    color: rgb(32, 32, 32);
+}
+
+#info {
+    background-color: rgb(32, 32, 32);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+    padding-left: 170px;
+    padding-top: 50px;
+    min-height: 500px;
+}
+
+#reach {
+    background-color: lightslategray;
+}
+
+#gray {
+    padding-bottom: 25px;
+    font-family: "source serif 4";
+    color: gray;
+    font-weight: 350;
+    font-size: 20px;
+}
+
+#white {
+    color: rgb(233, 229, 229);
+    padding-right: 40px;
+    font-family: "source serif 4";
+    font-weight: 350;
+}
+
+
+#reach {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    align-content: baseline;
+    font-family: "source serif 4";
+    font-weight: bold;
+    font-size: 7em;
+    line-height: 0.70;
+    height: 30%;
+}
+
+#version {
+    font-family: "source serif 4";
+    width: 100%;
+    font-size: 12px;
+    padding-left: 20px;
+}
