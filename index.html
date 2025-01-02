@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monika</title>
+
+  <link rel="stylesheet" href="CSS/index.css">
+  <link>
+</head>
+<body>
+  
+  <!-- HEADER FOR SMALLER SCREENS-->
+   <header class="smaller-header">
+    <a class="smaller-logo" href="index.html">Monika</a>
+    <div class="smaller-nav-btn" onclick="toggleSmallerMenu()"></div>
+   </header>
+   <div class="smaller-nav-menu" id="smaller-nav-menu">
+    <div class="close-menu-btn" onclick="toggleSmallerMenu()">&times;</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="about.html">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a class="logo" href="index.html">Monika</a>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <div class="hero" id="home">
+    <div class="one"><p>Front-end</p></div>
+    <div class="two"></div>
+    <div class="three"><p>Hello, my name is Monika. I am a high school senior based in Conakry, Guinea, and a self-taught junior front-end developer with knowledge in HTML, CSS, and JavaScript. I am eager to gain hands-on experience and deepen my understanding of collaborative workflows through volunteer opportunities or unpaid internships.</p></div>
+    <div class="four"></div>
+    <div class="five"><p>Developer</p></div>
+  </div>
+
+  <!-- SOCIAL MEDIA STICKY FLOATING LINKS -->
+   <div class="floating-socialmedia">
+    <a href="https://github.com/Monika-Gebre" target="_blank"><img src="Assets/social media/Github.png"></a>
+    <a href="https://www.instagram.com/_cozy_rays/" target="_blank"><img src="Assets/social media/Instagram.png" ></a>
+    <a href="https://www.linkedin.com/in/monika-gebrehiwot-549b0631b/?msgControlName=view_message_button&msgConversationId=2-YjZhM2JkMmItMzFlMC00ZjRjLTk5YTItMmVlMTliNzViZmNkXzAxMg%3D%3D&msgOverlay=true" target="_blank"><img src="Assets/social media/Linkedin.png"></a>
+   </div>
+
+   <!-- SAMPLE PROJECTS PREVIEW ONE-->
+    <div class="sample-project-one" id="projects">
+      <div class="sample-project-one-preview"><img src="Assets/projects/sample.png" width="600" height="350" onclick="togglePopup()" draggable="false"></div>
+      <div class="sample-project-one-title"><p>MSC</p></div>
+      <div class="decor"></div>
+    </div>
+
+    <!-- PROJECT DESCRIPTION POPUP ONE-->
+    <div class="popup" id="project-popup">
+      <div class="overlay"></div>
+
+      <div class="content">
+        <div class="close-btn" onclick="togglePopup()">&times;</div>
+        <div class="sample-project-description">
+
+          <div class="container-one">
+            <div class="description-image">
+              <a href="#">
+             <img src="Assets/projects/sample.png" width="510" height="260" draggable="false">
+              </a>
+            </div>
+            <div class="description-text">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="description-skills">
+              <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="container-two">
+            <div class="description-title"><h3>MSC</h3></div>
+            <div class="what">
+              <h5>What</h5>
+              <p>A personal blog site.</p>
+            </div>
+
+            <div class="why">
+              <h5>Why</h5>
+              <p>to document fragments of my mundane life.</p>
+            </div>
+
+            <div class="how">
+              <h5>How</h5>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </div>
+
+    <!-- SAMPLE PROJECTS PREVIEW TWO-->
+    <div class="sample-project-one">
+      
+      <div class="sample-project-one-preview"><img src="Assets/projects/sample2.png" width="600" height="350" onclick="togglePopupTwo()" draggable="false"></div>
+      <div class="sample-project-one-title"><p>Portfolio</p></div>
+      <div class="decor-two"></div>
+    </div>
+
+    <!-- PROJECT DESCRIPTION POPUP TWO-->
+    <div class="popup" id="project-popup-two">
+      <div class="overlay"></div>
+
+      <div class="content2">
+        <div class="close-btn" onclick="togglePopupTwo()">&times;</div>
+        <div class="sample-project-description">
+
+          <div class="container-one">
+            <div class="description-image">
+              <a href="#">
+                <img src="Assets/projects/sample2.png" width="510" height="260" draggable="false">
+              </a>
+            </div>
+            <div class="description-text">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="description-skills">
+              <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="container-two">
+            <div class="description-title"><h3>Portfolio</h3></div>
+            <div class="what">
+              <h5>What</h5>
+              <p>A personal portfolio</p>
+            </div>
+
+            <div class="why">
+              <h5>Why</h5>
+              <p>To showcase my projects and progress in programming as time goes.</p>
+            </div>
+
+            <div class="how">
+              <h5>How</h5>
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </div>
+
+    <!-- SAMPLE PROJECTS PREVIEW THREE
+    <div class="sample-project-one">
+      <div class="sample-project-one-preview"><img src="Assets/projects/sample.png" width="600" height="350" onclick="togglePopupThree()"></div>
+      <div class="sample-project-one-title"><p>Portfolio</p></div>
+      <div class="decor"></div>
+    </div>
+
+    <div class="popup" id="project-popup-three">
+      <div class="overlay"></div>
+
+      <div class="content3">
+        <div class="close-btn" onclick="togglePopupThree()">&times;</div>
+        <div class="sample-project-description">
+
+          <div class="container-one">
+            <div class="description-image">
+             <img src="Assets/projects/sample.png" width="510" height="260">
+            </div>
+            <div class="description-text">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="description-skills">
+              <span>HTML</span> <span>CSS</span> <span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="container-two">
+            <div class="description-title"><h3>Portfolio</h3></div>
+            <div class="what">
+              <h5>What</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+
+            <div class="why">
+              <h5>Why</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+
+            <div class="how">
+              <h5>How</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </div>
+     -->
+
+    <!-- CONTACT ME -->
+
+    <div class="contact" id="contact">
+      <div class="start-project">
+        <span>Wanna start</span><img src="Assets/IMG_20220909_093433_083.jpg" width="70" height="70">
+        <p>a project together ?</p>
+      </div>
+      
+    </div>
+
+    <div class="contact-info-container">
+      
+      <div class="contact-details-container">
+        <div class="contact-details">
+          <p class="first-child">Contact Details</p>
+          <p class="second-child">monikagebre2004@gmail.com</p>
+          <p class="second-child">+224 657 96 63 02</p>
+        </div>
+        <div class="socials">
+          <p>Socials</p>
+          <a href="https://github.com/Monika-Gebre" target="_blank">Gthub</a><a href="https://www.instagram.com/_cozy_rays/" target="_blank">Instagram</a><a href="https://www.linkedin.com/in/monika-gebrehiwot-549b0631b/?msgControlName=view_message_button&msgConversationId=2-YjZhM2JkMmItMzFlMC00ZjRjLTk5YTItMmVlMTliNzViZmNkXzAxMg%3D%3D&msgOverlay=true" target="_blank">Linkedin</a>
+        </div>
+        <!--
+        <div class="feedback">
+          <p>Feedback</p>
+          <button><img src="Assets/SVG/Quill.png" width="20" height="30"></button>
+        </div>
+        -->
+      </div>
+      <!--
+      <div class="reach-out">Reach out</div>
+      -->
+    </div>
+
+    <!--SUBMIT FORM-->
+    <div class="form">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="b5b47adb-203b-4cfb-81e8-4796205d3aba">
+        <label for="name">What is your name?</label>
+        <input type="text" name="name" placeholder="Monika" required>
+
+        <label for="name">What is your email address?</label>
+        <input type="email" name="email" placeholder="monikagebre2004@gmail.com" required>
+
+        <label for="name">Do you have an organisation? if so, what is the name of your organisation?</label>
+        <input type="text" name="organisation" placeholder="No, I work by myself..." required>
+
+        <label for="name">What are you looking for?</label>
+        <input type="text" name="job-type" placeholder="A custom design for my..." required>
+
+        <label for="name">Your message</label>
+        <input type="text" name="message" placeholder="Well, I..." required>
+
+        <button class="form-submit-btn">Submit</button>
+      </form>
+    </div>
+
+    <!-- VERSION -->
+     <div class="version">
+      <span>version</span>
+      <p>2024 © Edition</p>
+     </div>
+
+
+
+
+    <script src="JavaScript/index.js"></script>
+</body>
+</html>
