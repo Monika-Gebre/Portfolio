@@ -165,22 +165,11 @@ img {
   grid-template-areas: 
   "name name name"
   "info info info";
-  padding: 2rem;
-  margin: 3rem;
 }
 
 .project__name {
   grid-area: name;
   font-size: var(--h1-font-size);
-}
-
-.project__info-box {
-  padding: 0.5rem;
-}
-
-.project__info-type {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
 
 .project__info-type::before {
